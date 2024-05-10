@@ -8,9 +8,12 @@
 
 为解决上述问题，本文提出了一种针对足式机器人多节点IMU的主动标定方法，首先基于正向运动学和典型相关分析理论，在刚体约束假设退化条件下，推导了IMU待标定的时间偏移参数和旋转变换参数的求解流程；然后基于矩阵条件数分析，设计了机器人腿部各个关节的运动轨迹，实现了主动标定动作的最优化；最后将算法部署至MATLAB和Gazebo仿真平台进行实验验证。实验表明，本文方法实现了足式机器人多节点IMU的主动标定，降低了标定过程对噪声干扰的敏感程度，提高了标定精度，提高了标定过程的自动化程度。在本文仿真实验环境中，当IMU信噪比为5dB时，本文方法的时间偏移标定误差不超过1个IMU采样间隔，旋转变换标定误差约为1°，证明了本文方法的有效性和鲁棒性。
 
-| [![algorithm frame](image/flow_chart.png)](image/flow_chart.png) | [![demo](image/demo.gif)](image/demo.gif) | [![result](image/experiment_result.png)](image/experiment_result.png) |
-| :--: | :--: | :--: |
-| 算法框架 | 最优化标定动作演示 | 旋转变换标定误差 |
+| [![algorithm frame](image/flow_chart.png)](image/flow_chart.png) | [![result](image/experiment_result.png)](image/experiment_result.png) |
+| :--: | :--: |
+| 算法框架 | 旋转变换标定误差 |
+| [![demo](image/demo.gif)](image/demo.gif) | [![demo](image/demo_matlab.gif)](image/demo_matlab.gif) |
+| :--: | :--: |
+| Gazebo标定动作demo | MATLAB标定动作demo |
 
 **作者：蒋方誉，上海交通大学，感知与导航研究所**
 
