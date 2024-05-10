@@ -12,7 +12,6 @@
 | :--: | :--: |
 | 算法框架 | 旋转变换标定误差 |
 | [![demo](image/demo.gif)](image/demo.gif) | [![demo](image/demo_matlab.gif)](image/demo_matlab.gif) |
-| :--: | :--: |
 | Gazebo标定动作demo | MATLAB标定动作demo |
 
 **作者：蒋方誉，上海交通大学，感知与导航研究所**
